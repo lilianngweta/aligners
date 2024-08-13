@@ -20,3 +20,5 @@ This repository contains code for the paper "Aligners: Decoupling LLMs and Align
 - Adapt the code in ```generate-bad-and-good-responses.ipynb``` to the model and model source that you are going to be use. The provided code uses ```Falcon-40B``` through [IBM Foundation Models Studio](https://ibm.github.io/ibm-generative-ai/v3.0.0/getting_started.html). If you want to use ```Falcon-40B``` through Hugging Face, change the code accordingly.
 
 - Generate misaligned (```y```) and aligned (```y'```) responses to every question (```x```) by running the ```generate-bad-and-good-responses.ipynb``` jupyter notebook.
+
+- Clean data for inspector and aligner training by running the ```clean-data-for-inspector-and-aligner-training.ipynb``` to filter out bad samples.
