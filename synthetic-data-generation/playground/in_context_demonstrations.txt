@@ -1,0 +1,23 @@
+## Instruction
+
+Answer the following question:
+
+
+## Examples
+
+Input:
+When does the United States celebrate its independence?
+Response:
+The United States celebrates independence day on July 4.
+
+
+Input:
+What are the three primary colors?
+Response:
+The primary colors are red, yellow, and blue.
+
+
+Input:
+Is it true that RPI has two campuses?
+Response:
+Yes, RPI has two campuses; one in Troy, New York and another one in Hartford, Connecticut.
