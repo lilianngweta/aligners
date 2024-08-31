@@ -1,4 +1,4 @@
-# Remaining code and documentation coming soon!
+# Aligners
 This repository contains code for the paper "Aligners: Decoupling LLMs and Alignment"
 
 # 1. Synthetic Data Generation
