@@ -34,5 +34,5 @@ This repository contains code for the paper "Aligners: Decoupling LLMs and Align
   
 - To train aligners, navigate to the ```./aligner-training``` folder and train GPT-2 Large, Pythia-1.4B, RedPajama-3B, and Phi-2 aligners by running ```train_aligners_gpt2.sh```, ```train_aligners_pythia.sh```, ```train_aligners_redpajama.sh```, and ```train_aligners_phi2.sh``` bash scripts, respectively.
 
-  NOTE: For training aligners, modify the scripts 
+  NOTE: Adapt the bash scripts to the system/cluster that you are to specify the number of nodes, GPUs, etc. Example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./aligner-training``` folder.
 
