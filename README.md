@@ -25,3 +25,10 @@ This repository contains code for the paper "Aligners: Decoupling LLMs and Align
 - Generate misaligned (```y```) and aligned (```y'```) responses to every question (```x```) by running the ```generate-bad-and-good-responses.ipynb``` jupyter notebook.
 
 - Clean data for inspector and aligner training by running the ```clean-data-for-inspector-and-aligner-training.ipynb``` notebook to filter out bad samples.
+
+
+# 1. Training inspectors and aligners
+## Instructions
+
+- To train inspectors, navigate to the ```./inspector-training``` folder and
+
