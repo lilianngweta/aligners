@@ -30,5 +30,9 @@ This repository contains code for the paper "Aligners: Decoupling LLMs and Align
 # 2. Training inspectors and aligners
 ## Instructions
 
-- To train inspectors, navigate to the ```./inspector-training``` folder and
+- To train inspectors, navigate to the ```./inspector-training``` folder and train inspectors by running the ```train_inspectors.sh``` bash script.
+  
+- To train aligners, navigate to the ```./aligner-training``` folder and train GPT-2 Large, Pythia-1.4B, RedPajama-3B, and Phi-2 aligners by running ```train_aligners_gpt2.sh```, ```train_aligners_pythia.sh```, ```train_aligners_redpajama.sh```, and ```train_aligners_phi2.sh``` bash scripts, respectively.
+
+  NOTE: For training aligners, modify the scripts 
 
