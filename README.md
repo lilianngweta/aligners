@@ -27,7 +27,7 @@ This repository contains code for the paper "Aligners: Decoupling LLMs and Align
 - Clean data for inspector and aligner training by running the ```clean-data-for-inspector-and-aligner-training.ipynb``` notebook to filter out bad samples.
 
 
-# 1. Training inspectors and aligners
+# 2. Training inspectors and aligners
 ## Instructions
 
 - To train inspectors, navigate to the ```./inspector-training``` folder and
