@@ -1,6 +1,8 @@
 # Aligners
 This repository contains code for the paper "Aligners: Decoupling LLMs and Alignment"
 
+![title](images/pipeline.png)
+
 # 1. Synthetic Data Generation
 ## Instructions
 
