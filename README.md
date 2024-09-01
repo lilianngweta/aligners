@@ -3,7 +3,7 @@ This repository contains code for the paper [Aligners: Decoupling LLMs and Align
 
 ![title](images/pipeline.png)
 
-# 1. Synthetic Data Generation
+# 1. Synthetic data generation
 ## Instructions
 
 - Navigate to the ```./synthetic-data-generation``` folder and then open either the ```ethical```, ```factuality```, or ```helpful``` folder depending on the type of dataset you are trying to generate.
@@ -29,7 +29,7 @@ This repository contains code for the paper [Aligners: Decoupling LLMs and Align
 - Clean data for inspector and aligner training by running the ```clean-data-for-inspector-and-aligner-training.ipynb``` notebook to filter out bad samples.
 
 
-# 2. Training inspectors and aligners
+# 2. Train inspectors and aligners
 ## Instructions
 
 After generating synthetic data in step 1, train inspectors and aligners as follows:
@@ -40,3 +40,6 @@ After generating synthetic data in step 1, train inspectors and aligners as foll
 
 NOTE: Adapt the bash scripts to the system/cluster that you are using to specify the number of nodes, GPUs, etc. Example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./aligner-training``` folder.
 
+
+# 3. Generate responses for evaluation using aligners squad and baselines
+## Instructions
