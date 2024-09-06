@@ -44,7 +44,7 @@ NOTE: Adapt the bash scripts to the system/cluster that you are using to specify
 # 3. Generate responses for evaluation using aligners squad and baseline models
 ## Instructions
 
-Coming soon... <br><br>
+Instructions coming soon, ignore the text below ... <br><br>
 
 Create ```synthetic_mixed``` made of ethical, factuality, and helful test sets questions ```(x)``` (5000 samples each) and put it in ```./test_data_x``` by following the naming convention ```{data_name}_test_inputx.csv``` as seen in example test data files..<br><br>.
 
