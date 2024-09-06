@@ -63,4 +63,6 @@ Aligned data is stored in ```./data_aligned``` for aligners squad and Ji et al's
 
 AlpacaEval data prep...prepped data is saved in ```./data_for_alpaca_eval```
 
+Note: PKU_aligner == Ji_et_al_aligner
+
 
