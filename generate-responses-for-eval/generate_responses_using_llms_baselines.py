@@ -137,7 +137,6 @@ def generate_responses(type_=None, j=None, start_index=None, test_size=None, dat
     gather_responses(type_=type_, model_name=model_name)
     return "Done generating and gathering responses."
 
-        
 
 
 if __name__ == "__main__":
@@ -146,7 +145,7 @@ if __name__ == "__main__":
     test_size_ = [15000] #not being used
     folder_number = [0] #keeps track of folder numbers
     start_index_ = [0] #keeps track of sample index
-    types = ["beaverTails", "ethical", "factuality", "helpful"]
+    types = ["synthetic_mixed", "beaverTails"]
     model_names = ["tiiuae/falcon-40b", "meta-llama/llama-2-13b-chat", "meta-llama/llama-2-70b-chat", "ibm/falcon-40b-8lang-instruct", "meta-llama/llama-2-13b", "meta-llama/llama-2-70b"]
     
     grid = list(product(model_names, types, start_index_, folder_number, test_size_, data_size_, batch_size_))
