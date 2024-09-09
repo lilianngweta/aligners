@@ -68,14 +68,10 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 
 ### Preparing data for evaluation using GPT-4 via AlpacaEval 2.0
-
-<br><br>
-
-Remaining instructions coming soon (ignore the text below) ...
+- To convert the test data into a format expected for evaluation using GPT-4 via AlpacaEval, run bash scripts ```run_data_prep_for_alpaca_eval.sh``` and ```run_data_prep_for_alpaca_eval_our_aligners_vs_Ji_et_al_aligner.sh```. The converted data will be found in ```./data_for_alpaca_eval```.
 
 
-
-AlpacaEval data prep...prepped data is saved in ```./data_for_alpaca_eval```
+# Evaluation
 
 
 
