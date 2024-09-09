@@ -44,11 +44,11 @@ NOTE: Adapt the bash scripts to the system/cluster that you are using to specify
 # 3. Generate responses for evaluation using aligners squad and baseline models
 ## Instructions
 
-Instructions coming soon, ignore the text below ... <br><br>
+After training inspectors and aligners in step 2, generate responses using the trained aligners *squad* and baselines for evaluation as follows:
 
-Create ```synthetic_mixed``` made of ethical, factuality, and helful test sets questions ```(x)``` (5000 samples each) and put it in ```./test_data_x``` by following the naming convention ```{data_name}_test_inputx.csv``` as seen in example test data files..<br><br>.
+- Create synthetic data (```synthetic_mixed```) made of ethical, factuality, and helful test questions ```(x)``` (5000 samples each) and put it in ```./test_data_x``` by following the naming convention ```{data_name}_test_inputx.csv``` i.e. ```synthetic_mixed_test_inputx.csv```.
 
-Run the Jupyter notebook ```beaver_tails_data_prep.ipynb``` to download the BeaverTails evaluation dataset from Hugging Face, extract questions ```(x)``` from it, and save it as a csv file in ```./test_data_x```.
+- Run the Jupyter notebook ```beaver_tails_data_prep.ipynb``` to download the BeaverTails evaluation dataset from Hugging Face, extract questions ```(x)``` from it, and save it as a csv file in ```./test_data_x```.
 
 
 
