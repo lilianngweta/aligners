@@ -58,6 +58,12 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 - To generate responses using the aligner by Ji et al., run the bash script ```run_generate_using_Ji_et_al_aligner.sh```. Data with generated responses will be saved in the ```./data_aligned``` folder. Note: In the code, we sometimes refer to the aligner by Ji et al. as the PKU aligner.
 
+- To generate responses using individual aligners, run the bash script ```run_generate_using_individual_aligners.sh```. Data with generated responses will be saved in the ```./data_aligned_individual``` folder.
+
+- To generate responses using the aligners *squad*, run the bash script ```run_generate_using_aligners_squad.sh```. Data with generated responses will be saved in the ```./data_aligned``` folder.
+
+  NOTE: In cases where GPUs are needed to run, adapt the bash scripts to the system/cluster that you are using to specify the number of GPUs. Some example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./generate-responses-for-eval``` folder.
+
 <br><br>
 
 Remaining instructions coming soon (ignore the text below) ...
