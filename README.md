@@ -52,7 +52,7 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 - Run the Jupyter notebook ```beaver_tails_data_prep.ipynb``` to download the BeaverTails evaluation dataset from Hugging Face, extract questions ```(x)``` from it, and save it as a csv file in ```./test_data_x```.
 
-- Adapt the code in ```generate_responses_using_llms_baselines.py``` to the model source that you are going to be using. The provided code uses models accessed through the [IBM Foundation Models Studio](https://ibm.github.io/ibm-generative-ai/v3.0.0/getting_started.html). If you want to use models from Hugging Face, change the code accordingly.
+- Adapt the code in ```generate_responses_using_llms_baselines.py``` to the models (LLMs) source that you are going to be using. The provided code uses LLMs accessed through the [IBM Foundation Models Studio](https://ibm.github.io/ibm-generative-ai/v3.0.0/getting_started.html). If you want to use models from Hugging Face, change the code accordingly.
 
 - To generate responses using ```falcon-40b```, ```llama-2-13b-chat```, ```llama-2-70b-chat```, ```falcon-40b-instruct```, ```llama-2-13b```, and ```llama-2-70b```, run the bash script ```run_generate_responses_using_llms_baselines.sh```.
 
