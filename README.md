@@ -60,23 +60,23 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 - To generate responses using individual aligners, run the bash script ```run_generate_using_individual_aligners.sh```. Data with generated responses will be saved in the ```./data_aligned_individual``` folder.
 
+- Provide a path to saved inspector checkpoints in the ```generate_responses``` function in ```generate_using_aligners_squad.py``` and if you are using a checkpoint id for aligners that is different from ```2500```, change it under ```if __name__ == "__main__":``` in ```generate_using_aligners_squad.py```.
+
 - To generate responses using the aligners *squad*, run the bash script ```run_generate_using_aligners_squad.sh```. Data with generated responses will be saved in the ```./data_aligned``` folder.
 
   NOTE: In cases where GPUs are needed to run, adapt the bash scripts to the system/cluster that you are using to specify the number of GPUs. Some example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./generate-responses-for-eval``` folder.
+
+
+### Preparing data for evaluation using GPT-4 via AlpacaEval 2.0
 
 <br><br>
 
 Remaining instructions coming soon (ignore the text below) ...
 
-<br>
-
-Provide a path to saved inspector checkpoints in the ```generate_responses``` function in ```generate_using_aligners_squad.py```. <br>
-
-Aligned data is stored in ```./data_aligned``` for aligners squad and Ji et al's aligner and ```./data_aligned_individual``` for individual aligners.<br>
 
 
 AlpacaEval data prep...prepped data is saved in ```./data_for_alpaca_eval```
 
-Note: PKU_aligner == Ji_et_al_aligner
+
 
 
