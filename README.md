@@ -58,6 +58,8 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 
 
+Remaining instructions coming soon (ignore the text below) ...
+
 <br>
 
 Provide a path to saved inspector checkpoints in the ```generate_responses``` function in ```generate_using_aligners_squad.py```. <br>
