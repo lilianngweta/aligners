@@ -41,10 +41,10 @@ After generating synthetic data in step 1, train inspectors and aligners as foll
 NOTE: Adapt the bash scripts to the system/cluster that you are using to specify the number of nodes, GPUs, etc. Example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./aligner-training``` folder.
 
 
-# 3. Generate responses for evaluation using aligners squad and baseline models
+# 3. Generate responses for evaluation using aligners and baseline models
 ## Instructions
 
-After training inspectors and aligners in step 2, generate responses using the trained aligners *squad* and baselines for evaluation as follows:
+After training inspectors and aligners in step 2, generate responses using the trained aligners and baselines for evaluation as follows:
 
 - Navigate to the ```./generate-responses-for-eval``` folder.
 
@@ -72,9 +72,14 @@ After training inspectors and aligners in step 2, generate responses using the t
 
 
 # 4. Evaluation
+After generating responses for evaluation using aligners and baseline models in step 3, evaluate them as follows:
 
+- Navigate to the ```./evaluation``` folder.
+- 
 Coming soon ...
 
+
+```./results_individual``` and ```./results```
 
 
 
