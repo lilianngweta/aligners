@@ -1,5 +1,5 @@
 # Aligners
-This repository contains code for the paper [Aligners: Decoupling LLMs and Alignment](https://arxiv.org/pdf/2403.04224)
+This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and Alignment](https://arxiv.org/pdf/2403.04224)
 
 ![title](images/pipeline.png)
 
