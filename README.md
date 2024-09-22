@@ -3,6 +3,12 @@ This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and
 
 ![title](images/pipeline.png)
 
+# Requirements
+ Install all the required packages listed in ```requirements.txt```.
+
+# Demo
+ Coming soon ...
+
 # 1. Synthetic data generation
 ## Instructions
 
