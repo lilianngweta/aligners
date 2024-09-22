@@ -7,7 +7,7 @@ This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and
  Install all the required packages listed in ```requirements.txt```.
 
 ## Demo
- Coming soon ...
+ A simple demo to illustrate how to use a trained aligner to align a response can be found in the Jupyter notebook ```./simple-demo.ipynb```.
 
 ## 1. Synthetic data generation
 ### Instructions
@@ -106,7 +106,11 @@ After generating responses for evaluation using aligners and baseline models in 
   - To collect all the results and to create results tables and bar plot, run the Jupyter notebook ```create_results_tables_and_barplot.ipynb```.
 
 
-  
+## Released datasets and trained aligner
+- Datasets that were used to train aligners can be found here https://huggingface.co/datasets/lilianngweta/aligners-datasets
+
+- A trained 7B ethical aligner will be released here https://huggingface.co/lilianngweta/ethical-aligner-7B
+
 ## Paper Citation
 
 ```
