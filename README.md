@@ -7,7 +7,7 @@ This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and
  Install all the required packages listed in ```requirements.txt```.
 
 ## Demo
- A simple demo to illustrate how to use a trained aligner to align a response can be found in the Jupyter notebook ```./simple-demo.ipynb```.
+ A simple demo to illustrate how to use a trained aligner to align responses can be found in the ```./simple-demo.ipynb``` notebook.
 
 ## 1. Synthetic data generation
 ### Instructions
