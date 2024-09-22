@@ -3,14 +3,14 @@ This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and
 
 ![title](images/pipeline.png)
 
-# Requirements
+## Requirements
  Install all the required packages listed in ```requirements.txt```.
 
-# Demo
+## Demo
  Coming soon ...
 
-# 1. Synthetic data generation
-## Instructions
+## 1. Synthetic data generation
+### Instructions
 
 - Navigate to the ```./synthetic-data-generation``` folder and then open either the ```ethical```, ```factuality```, or ```helpful``` folder depending on the type of dataset you are trying to generate.
 
@@ -35,8 +35,8 @@ This repository contains code for the EMNLP paper [Aligners: Decoupling LLMs and
 - Clean data for inspector and aligner training by running the ```clean-data-for-inspector-and-aligner-training.ipynb``` notebook to filter out bad samples.
 
 
-# 2. Train inspectors and aligners
-## Instructions
+## 2. Train inspectors and aligners
+### Instructions
 
 After generating synthetic data in step 1, train inspectors and aligners as follows:
 
@@ -47,8 +47,8 @@ After generating synthetic data in step 1, train inspectors and aligners as foll
 NOTE: Adapt the bash scripts to the system/cluster that you are using to specify the number of nodes, GPUs, etc. Example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./aligner-training``` folder.
 
 
-# 3. Generate responses for evaluation using aligners and baseline models
-## Instructions
+## 3. Generate responses for evaluation using aligners and baseline models
+### Instructions
 
 After training inspectors and aligners in step 2, generate responses using the trained aligners and baselines for evaluation as follows:
 
@@ -73,12 +73,12 @@ After training inspectors and aligners in step 2, generate responses using the t
   NOTE: In cases where GPUs are needed to run, adapt the bash scripts to the system/cluster that you are using to specify the number of GPUs. Some example bash scripts for when you are running on a cluster that uses a Slurm job scheduler are in the ```./generate-responses-for-eval``` folder.
 
 
-### Preparing data for evaluation using GPT-4 via AlpacaEval 2.0
+#### Preparing data for evaluation using GPT-4 via AlpacaEval 2.0
 - To convert the test data into a format expected for evaluation using GPT-4 via AlpacaEval, run bash scripts ```run_data_prep_for_alpaca_eval.sh``` and ```run_data_prep_for_alpaca_eval_our_aligners_vs_Ji_et_al_aligner.sh```. The converted data will be found in ```./data_for_alpaca_eval```.
 
 
-# 4. Evaluation
-## Instructions
+## 4. Evaluation
+### Instructions
 After generating responses for evaluation using aligners and baseline models in step 3, evaluate them as follows:
 
 - Navigate to the ```./evaluation``` folder.
@@ -107,7 +107,7 @@ After generating responses for evaluation using aligners and baseline models in 
 
 
   
-# Paper Citation
+## Paper Citation
 
 ```
 @article{ngweta2024aligners,
