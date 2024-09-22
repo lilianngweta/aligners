@@ -107,9 +107,9 @@ After generating responses for evaluation using aligners and baseline models in 
 
 
 ## Released datasets and trained aligner
-- Datasets that were used to train aligners can be found here https://huggingface.co/datasets/lilianngweta/aligners-datasets
+- Datasets that were used to train aligners can be found [here](https://huggingface.co/datasets/lilianngweta/aligners-datasets)
 
-- A trained 7B ethical aligner will be released here https://huggingface.co/lilianngweta/ethical-aligner-7B
+- A trained 7B ethical aligner will be released [here](https://huggingface.co/lilianngweta/ethical-aligner-7B)
 
 ## Paper Citation
 
