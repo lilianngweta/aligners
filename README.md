@@ -88,7 +88,30 @@ After generating responses for evaluation using aligners and baseline models in 
 
   #### Evaluating using GPT-4 via AlpacaEval
 
-Coming soon ...
+- Navigate to ```../generate-responses-for-eval/data_for_alpaca_eval``` where the prepared test datasets for evaluation using GPT-4 via AlpacaEval are stored.
+
+- For each dataset and aligner model, evaluate our aligners' responses against Ji et al's (PKU) aligner responses using the command ```alpaca_eval --model_outputs 'our_aligner_responses.json' --reference_outputs 'pku_aligner_responses.json' --output_path ./our_aligner_vs_pku_aligner```.
+
+- For each dataset and aligner model, evaluate our aligners' responses against base model baselines using the command ```alpaca_eval --model_outputs 'aligned_responses.json' --reference_outputs 'base_model_responses.json' --output_path ./aligned_vs_base_llm```.
+
+- For each dataset and aligner model, evaluate our aligners' responses against finetuned (chat and instruct) model baselines using the command ```alpaca_eval --model_outputs 'aligned_responses.json' --reference_outputs 'finetuned_model_responses.json' --output_path ./aligned_vs_finetuned_llm```.
+
+  ### Collect results
+  - To collect all the results and to create results tables and bar plot, run the Jupyter notebook ```create_results_tables_and_barplot.ipynb```.
+
+
+  
+# Paper Citation
+
+```
+@article{ngweta2024aligners,
+  title={Aligners: Decoupling LLMs and Alignment},
+  author={Ngweta, Lilian and Agarwal, Mayank and Maity, Subha and Gittens, Alex and Sun, Yuekai and Yurochkin, Mikhail},
+  journal={arXiv preprint arXiv:2403.04224},
+  year={2024}
+}
+```
+
 
 
 
