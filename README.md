@@ -117,7 +117,7 @@ After generating responses for evaluation using aligners and baseline models in 
 @article{ngweta2024aligners,
   title={Aligners: Decoupling LLMs and Alignment},
   author={Ngweta, Lilian and Agarwal, Mayank and Maity, Subha and Gittens, Alex and Sun, Yuekai and Yurochkin, Mikhail},
-  journal={arXiv preprint arXiv:2403.04224},
+  journal={Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year={2024}
 }
 ```
