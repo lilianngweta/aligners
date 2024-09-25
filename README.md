@@ -109,7 +109,7 @@ After generating responses for evaluation using aligners and baseline models in 
 ## Released datasets and trained aligner
 - Synthetically generated datasets that were used to train aligners are released on [Hugging Face](https://huggingface.co/datasets/lilianngweta/aligners-datasets)
 
-- A trained 7B ethical aligner is released on [Hugging Face](https://huggingface.co/lilianngweta/ethical-aligner-7B)
+- A trained 7B ethical aligner is released on [Hugging Face](https://huggingface.co/lilianngweta/ethical-aligner-7B). Example code on how to use it is in the ```./simple-demo.ipynb``` Jupyter notebook.
 
 ## Paper Citation
 
